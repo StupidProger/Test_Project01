@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Главная страница</title>
+	<link rel="stylesheet" type="text/css" href="css/bulma.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"">
+</head>
+<body>
+<!--Шапка Сайта-->
+<header class="page-header">
+<!-- Блок-центровщик содержания-->
+  <div class="container">
+    <div class="header-top clearfix">
+        <!--<div class="header-logo">
+            <img width="100" height="100" src="img/Logo.png" alt="logo">
+        </div>-->
+        <nav>
+            <ul class="main-nav  clearfix">
+                <li><a href="#Home">Homepage</a></li>
+                <li><a href="#About">Company</a></li>
+                <li><a href="#Catalog">Tour's</a></li>
+            </ul>
+            <div class="navbar-burger burger" data-target="navbarMenu">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+        </nav>    
+    </div>
+    <div class="promo">
+		<p>Наполните свою жизнь яркими красками,<br> Мир начинается здесь….</p> 
+	</div> 
+  </div>  
+</header>
+<main id="Main">
+  <div id="features" class="columns">
+	<div class="column centered feature-item">
+		<h3 class="feature-title">Удобно</h3>
+		<p>Комфорт основа удачного отдыха.</p>
+	</div>
+	<div class="column centered feature-item">
+		<h3 class="feature-title">Дёшево</h3>
+		<p>Интересные туры по низким ценам, а также скидки постоянным клиентам.</p>
+	</div>
+	<div class="column centered feature-item">
+		<h3 class="feature-title">Интересно</h3>
+		<p>
+		Индивидуально подобранные туры не дадут вам заскучать..
+        </p>
+	</div>
+  </div>
+  <section id="AboutTour">
+  <h2 class="section-title">Горячие Туры <a href="" class="btn to-catalog">Все Туры</a></h2>
+  <div class="columns">
+  	<div class="column catalog-item">
+  		<img src="img/city1.jpg" alt="Санкт-Петербург" width="280" height="180">
+		<h3>Санкт-Петербург</h3>
+		<b class="item-price">17400 руб.</b>
+		<a href="" class="button is-info btn-info">Описание</a>
+		<a href="" class="button is-success btn-buy">Купить</a>
+  	</div>
+  	<div class="column catalog-item">
+  		<img src="img/city2.jpg" alt="Санкт-Петербург" width="280" height="180">
+		<h3>Прага</h3>
+		<b class="item-price">21900 руб.</b>
+		<a href="" class="button is-info btn-info">Описание</a>
+		<a href="" class="button is-success btn-buy">Купить</a>
+  	</div>
+  	<div class="column catalog-item">
+  		<img src="img/city3.jpg" alt="Санкт-Петербург" width="280" height="180">
+		<h3>Вена</h3>
+		<b class="item-price">34300 руб.</b>
+		<a href="" class="button is-info btn-info">Описание</a>
+		<a href="" class="button is-success btn-buy">Купить</a>
+  	</div>
+</section>
+<section id="Form">
+	<div class="feedback">
+	<div class="container">
+	  <h2 class="section-title">Заявка</h2>
+		<form class="feedback-form column" action="" method="post">
+		   <img src="img/no-money.jpg" width="380" height="420">   
+		   <div class="feedback-form-group">
+			   <label class="name">Укажите ваше имя:</label>
+			   <input type="text" name="name" placeholder="Фамилия Имя Отчество">
+		   </div>
+		   <div class="clearfix">
+              <div class="feedback-form-group">
+                  <label for="phone">Контактный телефон:</label>
+                  <input type="text" name="phone" id="phone" placeholder="8-XXX-XXX-XX-XX">
+              </div>
+              <div class="feedback-form-group ">
+                  <label for="email">Электронная почта:</label>
+                  <input type="text" name="email" id="email" value="@mail.ru">
+              </div>
+           </div> 
+           <div class="checkbox-area">
+                  <label for="subscribe"><input type="checkbox" name="subscribe"> Я согласен на получение рассылки</label>
+           </div>
+		   <div class="feedback-form-group">
+		   	      <label>Расскажите о себе:</label>
+		   	      <textarea></textarea>
+		   </div>
+		          <input type="submit" class="btn" value="Отправить">
+		</form>
+	</div>
+</div>
+</section>
+<section class="section">
+ 	<h1 class="title centered">Отзывы:</h1>
+ 		<div class="container">
+ 			<div class="box">
+ 				<article class="media">
+ 					<div class="media-left">
+ 						<figure class="image is-64x64">
+ 							<img src="img/gopnik.jpg" alt="">
+ 						</figure>
+ 					</div>
+ 					<div class="media-content">
+ 					  <div class="content">
+ 						<p>
+ 							<strong>Владимир</strong> <small>@Techcol</small> <small>21m</small>
+ 							<br>
+ 							Пацаны,в общем контора ништяк, с братвой скатали в Питер. Так они нам экскурсию по тюрьмам провели,
+ 							посмотрели с пацанами "Кресты", в "Матросскую тишину" заглянули.
+ 						</p>
+ 					  </div>
+ 					</div>  
+ 				</article>
+ 			</div>
+ 			<div class="box">
+ 				<article class="media">
+ 					<div class="media-left">
+ 						<figure class="image is-64x64">
+ 							<img src="img/female.jpeg" alt="">
+ 						</figure>
+ 					</div>
+ 					<div class="media-content">
+ 						<div class="content">
+ 							<p>
+ 								<strong>Галина</strong> <small>@86galya</small> <small>2d 57m</small>
+ 							</p>
+ 							Всем рекомендую данную фирму, пользуюемся её услугами всей семьей уже два года и недавно получила сообщение о том,
+ 							что на все туры в Европу теперь у меня 10% скидка, очень довольна... 
+ 						</div>
+ 					</div>
+ 				</article>
+ 			</div>
+ 			<div class="box">
+ 				<article class="media">
+ 					<div class="media-left">
+ 						<figure class="image is-64x64">
+ 							<img src="img/N2018.jpg" alt="">
+ 						</figure>
+ 					</div>
+ 					<div class="media-content">
+ 						<div class="content">
+ 							<p>
+ 								<strong>Алексей</strong> <small>@newOrg</small> <small>3d 1h</small>
+ 							</p>
+ 							Остался доволен недавней поездкой в Барселону, интересная программа помогла найти единомышленников.
+ 							Порадовала адекватность цен на туры. Спасибо вам ребята.
+ 						</div>
+ 					</div>
+ 				</article>
+ 			</div>
+ 		</div>
+ 	</section>
+</main>
+<footer id="page-footer">
+	<div class="container">
+	<div class="footer-top">
+		<a href="" class="button is-primary">Travel!</a>
+	</div>
+	<div class="footer-middle columns">
+		<div class="footer-menu column">
+		  <h3>Сайт</h3>
+			<ul>
+				<li><a href="">Homepage</a></li>
+				<li><a href="">Company</a></li>
+				<li><a href="">Tour's</a></li>
+			</ul>
+		</div>
+		<div class="footer-menu column">
+		<h3>Отзывы</h3>
+			<ul>
+				<li><a href="">Показать</a></li>
+				<li><a href="">Оставить</a></li>
+			</ul>
+		</div>
+		<div class="footer-menu column">
+		   <h3>Туры</h3>
+			<ul>
+				<li><a href="">Каталог Туров</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="footer-bottom">
+		 <div class="footer-copyright">
+              By <a href="#">Stupid_Proger</a> &copy
+          </div>
+	</div>
+   </div>
+</footer>  
+</body>
+</html>
